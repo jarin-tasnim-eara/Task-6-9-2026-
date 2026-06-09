@@ -1,4 +1,6 @@
-let str = "racecar";
+
+let a = "racecar";
+function palindromeCheck(str){
 let palindrome = true;
 
 for (let i = 0; i < str.length; i++) {
@@ -6,5 +8,7 @@ for (let i = 0; i < str.length; i++) {
         palindrome = false;
     }
 }
-console.log(palindrome ? "Palindrome" : "Not Palindrome");
+return palindrome;
+}
+console.log(palindromeCheck(a) ? "Palindrome" : "Not Palindrome");
    
