@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>task 6</title>
+     <h4>Group objects by a key.</h4>
+    <p id="demo"></p>
+</head>
+<body>
+    <script>
+    let users=[
+    { name: "Eara", group:1 },
+    { name: "Jarin", group:2 },
+    { name: "Tasnim", group:1 },
+    ]
+ let grouped ={};
+
+ for( let i=0; i<users.length;i++ ){
+    let j= users[i].group;
+    if(!grouped[j]){
+        grouped[j]=[];
+    }
+    grouped[j].push(users[i]);
+ }
+
+console.log(grouped);
+
+</script>
+ 
+</body>
+</html>
