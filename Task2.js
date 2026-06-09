@@ -1,14 +1,3 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>task 2</title>
-     <h4>Find the second largest number in an array</h4>
- <p id="demo"></p>
-    </head>
-<body>
-    <script>
 let array = [10,45,30,20];
 
 let l = array[0];
@@ -22,7 +11,7 @@ l= array [i];
 } else if(array[i]> sl){
 sl = array[i];
 }}
-
+console.log(sl);
 
 console.log(sl);
  document.getElementById("demo").innerHTML = `Array: ${array}<br> Second Largest: ${sl}`;
