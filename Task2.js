@@ -12,9 +12,3 @@ l= array [i];
 sl = array[i];
 }}
 console.log(sl);
-
-console.log(sl);
- document.getElementById("demo").innerHTML = `Array: ${array}<br> Second Largest: ${sl}`;
-    </script>
-</body>
-</html>
